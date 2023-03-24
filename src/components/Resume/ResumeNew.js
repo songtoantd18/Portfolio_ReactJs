@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/songtoantd18/cv-upload/master/portfolio/cv/CV_NGUYEN_SONG_TOAN_CV_ENG.pdf";
+  "https://raw.githubusercontent.com/songtoantd18/Portfolio_ReactJs/master/src/Assets/NGUYEN%20SONG%20TOAN-CV-AUTOMATIC-PRODUCTION.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
